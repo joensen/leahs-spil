@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #ffb6c1;
+    padding: 20px;
+    border-bottom: 5px solid #ff69b4;
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000a0;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2.5em;
+    color: #ff69b4;
+}
+
+#game-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.game-card {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+}
+
+.game-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.game-card h3 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 1.8em;
+    color: #333;
+    margin-top: 0;
+}
+
+.game-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.game-card p {
+    font-size: 1em;
+    color: #666;
+}
+
+footer {
+    background-color: #ffb6c1;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid #ff69b4;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+    color: #fff;
+}
